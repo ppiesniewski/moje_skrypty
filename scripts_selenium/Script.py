@@ -18,7 +18,7 @@ class Script(unittest.TestCase):
         driver.find_element_by_id("login").clear()
         driver.find_element_by_id("login").send_keys("piesniu")
         driver.find_element_by_id("pass").clear()
-        driver.find_element_by_id("pass").send_keys("mirrors")
+        driver.find_element_by_id("pass").sen5d_keys("mirrors")
         driver.find_element_by_id("login-button").click()
         driver.find_element_by_css_selector("span.label > span.link").click()
         driver.find_element_by_id("composer-receivers").clear()
